@@ -45,3 +45,16 @@
     
     background-color: #21032f;
 }
+
+.footer{
+    background-color: black;
+    height: 40vh;
+    
+}
+.app>img{
+    cursor: pointer;
+    transition: transform 3s ease-in-out;
+}
+.app>img:hover{
+    transform: scale(1.05);
+}
