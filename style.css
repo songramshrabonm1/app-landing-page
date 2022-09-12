@@ -3,3 +3,27 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.fa-brands{
+    font-size: 46px;
+}
+.headerr{
+    background-color: rgb(54, 0, 98);
+}
+.primary-btn{
+    outline: 0;
+    border: 0;
+    background-image: linear-gradient(90deg, #c79141, #905a0b);
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 7px 0px #a16916;
+    text-transform: uppercase;
+    position: relative;
+    top: 0;
+}
+.imagess>img{
+    width: 340px;
+    max-width: 100%;
+}
