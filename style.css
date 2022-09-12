@@ -26,6 +26,7 @@
 .imagess>img{
     width: 340px;
     max-width: 100%;
+    
 }
 .imgg{
     width: 300px;
@@ -49,6 +50,7 @@
 .footer{
     background-color: black;
     height: 40vh;
+    width: 100%;
     
 }
 .app>img{
