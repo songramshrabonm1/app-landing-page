@@ -31,7 +31,7 @@
     <header class="headerr">
         <!-- ..............Navigation part start...................... -->
         <section>
-            <nav class="navbar navbar-expand-lg mb-5 p-2">
+            <nav class="navbar navbar-expand-lg mb-5 p-2 fixed-top headerr">
                 <div class="container px-5">
                   <a class="navbar-brand " href="#"><i class="fa-brands fa-app-store-ios"></i></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,19 +41,18 @@
                     <div class="collapse navbar-collapse " id="navbarNav">
                         <ul class=" navbar-nav ms-auto">
                           <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Features</a>
+                            <a class="nav-link text-white" href="#feature">Features</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link text-white"
+                            href="#gallery">Gallery</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">About</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-white ">Gallery</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-white">Contract</a>
+                            <a class="nav-link text-white"href="#form">Contract</a>
                           </li>
                         </ul>
                     </div>                  
@@ -66,7 +65,7 @@
 
 
             <!-- ...........BANNER PART START............ -->
-        <section class="container-fluid pb-5">
+        <section id="home" class="container-fluid pb-5">
             <div class="row px-5 d-flex justify-content-center align-items-center">
                 <div class="col-lg-6 col-sm-12 col-12 order-lg-1 order-sm-2 order-2">
                     <h2 class="text-white">Let your curstomers <br><span style="color:orange">connect </span></h2>
@@ -90,7 +89,7 @@
 
     <main>
               <!--.........FEature section start...............  -->
-        <section>
+        <section id="feature">
           <div class="container my-5">
             <h2 class="fw-bold text-center">FEA<span class="text-warning">T</span>URE</h2>
             <hr class="text-warning mx-5">
@@ -129,28 +128,28 @@
         
         
         
-        <section class="py-4">
+        <section id="gallery" class="py-4">
           <div class="container my-5">
             <h2 class="fw-bold text-center">GAL<span class="text-warning">L</span>ERY</h2>
             <hr class="mx-5 text-warning">
             <div class="row g-5 my-5 ms-auto">
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6 col-12">
                 <img class=" border border-warning imgg" src="./images/godzilla.jpg" alt="">
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6 col-12">
                 <img class="  border-warning border imgg" src="./images/images (3).jpg" alt="">
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6 col-12">
                 <img class=" border-warning border imgg" src="./images/jumanji.jpg" alt="">
 
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6 col-12">
                 <img class=" border-warning border imgg" src="./images/images (5).jpg" alt="">
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6 col-12">
                 <img class=" border-warning border imgg" src="./images/meena.jpg" alt="">
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6 col-12">
                 <img class="  border-warning border imgg" src="./images/images (4).jpg" alt="">
               </div>
             </div>
@@ -162,7 +161,7 @@
 
         <!-- .................Form section start.................. -->
 
-        <section>
+        <section id="form">
           <div class="container-fluid pt-5">
             <h2 class="fw-bold text-center">Con<span class="text-warning">tr</span>act</h2>
             <div class="row">
@@ -183,7 +182,7 @@
       </main>
       <footer>
         <div class="footer d-flex justify-content-around align-items-center">
-          <p class="text-white">&copy;bike. All rights reserved</p>
+          <p class="text-white">&copy;2023 bike. All rights reserved</p>
           <div class="app">
             <p class="text-white">Get the app</p>
             <img class="img-fluid" src="./images/app-store.png" alt="">
